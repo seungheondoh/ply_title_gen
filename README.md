@@ -5,12 +5,14 @@ This is the official repository of **Music Playlist Title Generation: A Machine-
 - [Pretrained Weight and Datasplit](https://zenodo.org/record/5804567#.Ycd7kxNBxb8)
 - [Presentation](https://www.youtube.com/watch?v=bzg6TO6mcrw&list=PL44xXQ2KNZ0IXb7mZGtHHBQwbPqH5OMvc&index=3&ab_channel=NLP4MusA)
 
+<img src="/img/ply_gen.png">
+
 
 ### Inference Results
 
 This model use the track_id sequence as an input and return the track title sequence as an output. 
 
-- Melon dataset's results can be found [here]().
+- Melon dataset's results can be found [here](https://github.com/SeungHeonDoh/ply_title_gen/blob/master/exp/melon/transfomer/white/s:True_epos:False/inference.json).
 
 ```
     "25269": {
@@ -27,7 +29,7 @@ This model use the track_id sequence as an input and return the track title sequ
     },
 ```
 
-- Spotify-million-playlist-dataset dataset's results can be found [here]().
+- Spotify-million-playlist-dataset dataset's results can be found [here](https://github.com/SeungHeonDoh/ply_title_gen/blob/master/exp/mpd/transfomer/white/s:True_epos:False/inference.json).
 
 ```
     "923035": {
