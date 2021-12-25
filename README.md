@@ -50,7 +50,7 @@ This model use the track_id sequence as an input and return the track title sequ
 
 1. Install python and PyTorch:
     - python==3.8.5
-    - torch==1.8.0 (Please install it according to your [CUDA version](https://pytorch.org/get-started/previous-versions/#linux-and-windows-4).)
+    - torch==1.9.0 (Please install it according to your [CUDA version](https://pytorch.org/get-started/previous-versions/#linux-and-windows-4), in my case cu111)
     
 2. Other requirements:
     - pip install -r requirements.txt
