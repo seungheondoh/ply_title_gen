@@ -1,0 +1,8 @@
+/dataset
+/env
+/src/__pycache__
+*.pyc
+/wandb
+__pycache__/
+*.ckpt
+.DS_Store
